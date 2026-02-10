@@ -34597,14 +34597,9 @@
 /area/station/hallway/secondary/exit)
 "gPF" = (
 /obj/structure/table/wood,
-/obj/item/paper_bin/carbon,
-/obj/item/storage/briefcase/secure,
-/obj/item/pen/fourcolor,
-/obj/item/coin/gold{
-	pixel_x = -7;
-	pixel_y = 8
-	},
 /obj/structure/cable,
+/obj/item/paper_bin,
+/obj/item/pen/fourcolor,
 /turf/open/floor/carpet/green,
 /area/station/command/heads_quarters/nt_rep)
 "gPR" = (
@@ -50288,6 +50283,14 @@
 /area/station/cargo/storage)
 "qiH" = (
 /obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/bottle/vodka{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
+	pixel_x = 4;
+	pixel_y = 3
+	},
 /turf/open/floor/carpet/executive,
 /area/station/command/heads_quarters/nt_rep)
 "qjL" = (
@@ -56663,6 +56666,11 @@
 	},
 /obj/structure/table/wood,
 /obj/structure/extinguisher_cabinet/directional/east,
+/obj/item/storage/briefcase/secure,
+/obj/item/coin/gold{
+	pixel_x = -7;
+	pixel_y = 8
+	},
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/nt_rep)
 "tYi" = (
@@ -62609,6 +62617,12 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/station/security/detectives_office)
+"xDi" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/carpet/executive,
+/area/station/command/heads_quarters/nt_rep)
 "xDp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -95747,7 +95761,7 @@ cpc
 ukX
 avD
 tsR
-qiH
+xDi
 nFx
 ggW
 mmW
