@@ -11691,6 +11691,15 @@
 /obj/item/storage/medkit/regular,
 /obj/structure/closet/secure_closet/paramedic,
 /obj/effect/turf_decal/bot_blue,
+/obj/machinery/button/door{
+	desc = "A remote control switch for the medbay foyer.";
+	id = "MedbayFoyer";
+	name = "Medbay Doors Control";
+	normaldoorcontrol = 1;
+	pixel_y = 5;
+	req_access = list("medical");
+	pixel_x = 24
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/medical/medbay/lobby)
 "blo" = (
@@ -13730,14 +13739,6 @@
 /area/station/command/heads_quarters/hop)
 "bsZ" = (
 /obj/effect/turf_decal/siding/blue,
-/obj/machinery/button/door{
-	desc = "A remote control switch for the medbay foyer.";
-	id = "MedbayFoyer";
-	name = "Medbay Doors Control";
-	normaldoorcontrol = 1;
-	pixel_y = -26;
-	req_access = list("medical")
-	},
 /obj/structure/table,
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/iron/dark/smooth_large,
@@ -64462,11 +64463,11 @@
 "yiT" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/camera/directional/north,
-/obj/machinery/computer/records/medical{
-	dir = 8
-	},
 /obj/effect/turf_decal/siding/blue{
 	dir = 5
+	},
+/obj/machinery/computer/crew{
+	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/medical/medbay/lobby)
