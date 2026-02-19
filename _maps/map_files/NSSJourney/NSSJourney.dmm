@@ -4967,8 +4967,9 @@
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
 "aIl" = (
-/obj/structure/table,
-/obj/item/camera,
+/obj/structure/chair/plastic{
+	dir = 8
+	},
 /turf/open/floor/iron/dark/smooth_large{
 	icon_state = "textured_dark_large"
 	},
@@ -33152,8 +33153,8 @@
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
 "fPh" = (
-/obj/structure/table,
-/obj/item/toner/large,
+/obj/machinery/fishing_portal_generator,
+/obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark/smooth_large{
 	icon_state = "textured_dark_large"
 	},
